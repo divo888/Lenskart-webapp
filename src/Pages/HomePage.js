@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
-import { useHistory, Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function HomePage() {
   const data_glasses = require("../db.json");

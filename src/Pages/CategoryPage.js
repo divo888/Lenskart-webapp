@@ -13,7 +13,7 @@ function CategoryPage() {
     history.replace("/");
   };
   const nameItem = data_glasses.glasses
-    .filter((i) => i.category == category)
+    .filter((i) => i.category === category)
     .map((name) => (
       <Link
         to={`/categoryPage/${category}/${name.name}/:id`}
